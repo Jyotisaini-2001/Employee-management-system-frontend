@@ -10,14 +10,7 @@
 .page-content {
   @apply z-10 mx-4 mt-32 flex h-fit flex-col gap-8 rounded-lg bg-white px-8 py-10 lg:m-0 lg:min-h-full lg:px-24;
 }
-/* .menu {
-  z-index: 999;
-  position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-} */
+
 .menu-flex {
   border: 1px solid white;
   background-color: rgba(254, 254, 255, .8);
@@ -29,18 +22,7 @@
   padding: .5em .8em .5em 2.5em;
   display: flex;
 }
-/* .logo-menu {
-  flex-direction: column;
-  align-items: flex-end;
-  display: flex;
-} */
-/* .by-jh {
-  opacity: .7;
-  text-align: right;
-  margin-top: -.9em;
-  margin-left: .6em;
-  font-size: .75em;
-} */
+
 .menu-wr {
   grid-column-gap: 2em;
   grid-row-gap: 2em;

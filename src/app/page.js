@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl font-bold text-center md:text-left text-marine-blue ">Welcome to Our Employee Management System</h1>
       </div>
       <div className="md:w-1/2 flex items-center justify-center p-8 mr-auto">
-      <Image src='/home2.jpg' alt=''/>
+      <img src='/home2.jpg' alt=''/>
       </div>
     </div>
  

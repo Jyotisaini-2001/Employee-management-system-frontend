@@ -14,7 +14,7 @@ export default function EmployeeDetails() {
   useEffect(() => {
     const fetchEmployee = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/api/employees/${id}`);
+        const response = await axios.get(`https://employee-management-system-backend-4h30.onrender.com/api/employees/${id}`);
         setEmployee(response.data);
       } catch (error) {
         console.error('Error fetching employee data:', error);
@@ -41,7 +41,7 @@ export default function EmployeeDetails() {
       <Menu />
       <div className="flex justify-center items-center min-h-screen font-serif flex-wrap mt-12 ">
         <div className="flex justifiy-center items-center mb-4 sm:mb-0 sm:mr-8">
-          <Image src='/girl.svg' alt='animation' className="w-full h-auto rounded-lg" />
+          <img src='/girl.svg' alt='animation' className="w-full h-auto rounded-lg" />
         </div>
         <div className="max-w-md p-8 bg-white rounded-lg shadow-lg w-full sm:w-auto ">
           <h1 className="text-3xl font-bold mb-4">Employee Details</h1>

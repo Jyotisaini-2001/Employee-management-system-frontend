@@ -16,10 +16,10 @@ const Menu = () => {
           <a
             href="/"
             aria-current="page"
-            className="logo-menu w-inline-block w--current"
+            className="logo-menu "
           >
-            <div className="logo w-embed">
-            <Image src="/remasto.webp" alt="" className="h-12 " />
+            <div className="logo ">
+            {/* <img src="/remasto.webp" alt="#logo" className="h-12 " /> */}
             </div>
           </a>
           <div
@@ -27,27 +27,20 @@ const Menu = () => {
             style={{ height: menuOpen ? "auto" : "" }}
           >
             <div className="menu-wr">
-            <Link href="/" className="link is--top w-inline-block">
+            <Link href="/" className="link is--top ">
                 <div className="menu-text text-transparent bg-gradient-to-r from-purple-700 via-purple-600 to-red-500 bg-clip-text">
                   Home
                 </div>
               </Link>
-              <a
-                href="https://remasto.com/"
-                className="link is--top w-inline-block "
-              >
-                <div class="menu-text text-transparent bg-gradient-to-r from-purple-700 via-purple-600 to-red-500 bg-clip-text">
-                  Who we are
-                </div>
-              </a>
+          
              
-              <Link href="/form" className="link is--top w-inline-block">
+              <Link href="/form" className="link is--top ">
                 <div className="menu-text  text-marine-blue">
                   Add New Employee
                 </div>
               </Link>
 
-              <Link href="/employee-list" className="link is--top w-inline-block">
+              <Link href="/employee-list" className="link is--top ">
                 <div className="menu-text  text-marine-blue">View Employee</div>
               </Link>
             </div>
